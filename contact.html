@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Poppins&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Contact</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q7VXPKTBF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0Q7VXPKTBF');
+    </script>
+    <script src="https://kit.fontawesome.com/5488fdb286.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <a class = "skip" href="index.html">Skip to Main Content</a>
+        <ul>
+        <li><a href= "index.html" >About</a></li>
+        <li><a href= "americanfilms.html" >American Movies</a></li>
+        <li><a href= "chinesefilms.html" >Chinese Movies</a></li>
+        <li class="current"><a href= "contact.html" >Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>
+    Contact me if you are also a film lover like me!
+    </h1>
+    <p>
+        I made some short film videos before: music video, suspense movie, documentary and a few vlogs.
+    </p>
+    <p>
+        Although the final product is not well edited, but I enjoyed the process of casting, script writing, and the days on set.
+    </p>
+
+</main>
+<form role="form">
+    <fieldset>
+      <legend>Contact</legend>
+  
+      <label for="name_id">Your Name</label>
+      <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+  
+      <label for="email_id">Your Email</label>
+      <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+  
+      <label for="phone_id">Your Phone Number</label>
+      <input type="tel" name="phone" placeholder="123-456-7890" id = "phone_id" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      <div><span>Format: 123-456-7890</span></div>
+  
+      <label for="msg">Leave A Message</label>
+      <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+  
+      <input type="checkbox" checked="checked" name="remember" id = "cBox">
+      <label for ="cBox">Remember me</label>
+  
+      <input type="submit" value = "Contact Me">
+    </fieldset>
+   </form>
+   <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/selfie.jpeg" alt="selfie of Jiaxuan Zhang" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>Jiaxuan Zhang</h1>
+        <h1>UX Design Student and a film lover</h1>
+      </div>
+    </div>
+  </div>
+<footer>
+    <p>
+        Jiaxuan Zhang &copy; 2022<i class="fa-solid fa-copyright"></i>
+    </p>
+</footer>
+</body>
+</html>
